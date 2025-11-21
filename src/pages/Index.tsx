@@ -162,8 +162,8 @@ const Index = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-primary mb-1">Адрес мастерской</h4>
-                    <p className="text-muted-foreground">г. Москва, ул. Петровка, д. 15</p>
-                    <p className="text-muted-foreground">ТЦ "Петровский Пассаж", 2 этаж</p>
+                    <p className="text-muted-foreground">Москва, Хорошёвский</p>
+                    <p className="text-muted-foreground">Улица Куусинена, 7 к2, 123308</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">

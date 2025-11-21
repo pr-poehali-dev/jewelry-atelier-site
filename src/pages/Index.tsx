@@ -40,7 +40,7 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
         <div className="container mx-auto px-6 py-4 flex justify-between items-center">
-          <h1 className="text-2xl font-serif font-bold text-primary">Ювелирная Мастерская</h1>
+          <h1 className="text-2xl font-serif font-bold text-primary">ВикГолд</h1>
           <nav className="hidden md:flex gap-8">
             <a href="#about" className="text-foreground hover:text-accent transition-colors">О нас</a>
             <a href="#portfolio" className="text-foreground hover:text-accent transition-colors">Работы</a>
@@ -255,7 +255,7 @@ const Index = () => {
         <div className="container mx-auto max-w-6xl">
           <div className="flex flex-col md:flex-row justify-between items-center gap-6">
             <p className="text-muted-foreground">
-              © 2024 Ювелирная Мастерская. Все права защищены.
+              © 2024 ВикГолд. Все права защищены.
             </p>
             <div className="flex gap-6">
               <a href="#" className="text-muted-foreground hover:text-accent transition-colors">

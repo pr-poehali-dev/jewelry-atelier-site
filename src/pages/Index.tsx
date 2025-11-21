@@ -155,7 +155,7 @@ const Index = () => {
           </h3>
           
           <div className="mb-12 animate-fade-in">
-            <div className="rounded-lg overflow-hidden shadow-lg border border-border h-[400px]">
+            <div className="rounded-lg overflow-hidden shadow-lg border border-border h-[400px] relative">
               <iframe
                 src="https://yandex.ru/map-widget/v1/?ll=37.538806%2C55.781472&z=16&l=map&pt=37.538806,55.781472,pm2rdm"
                 width="100%"
@@ -164,6 +164,23 @@ const Index = () => {
                 allowFullScreen
                 style={{ position: 'relative' }}
               />
+            </div>
+            <div className="mt-4 text-center">
+              <Button 
+                asChild
+                size="lg"
+                className="bg-accent text-accent-foreground hover:bg-accent/90"
+              >
+                <a 
+                  href="https://yandex.ru/maps/?rtext=~55.781472,37.538806&rtt=auto" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2"
+                >
+                  <Icon name="Navigation" size={20} />
+                  Построить маршрут
+                </a>
+              </Button>
             </div>
           </div>
 

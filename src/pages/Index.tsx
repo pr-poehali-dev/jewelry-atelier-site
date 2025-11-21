@@ -46,8 +46,8 @@ const Index = () => {
             <a href="#portfolio" className="text-foreground hover:text-accent transition-colors">Работы</a>
             <a href="#contact" className="text-foreground hover:text-accent transition-colors">Контакты</a>
           </nav>
-          <a href="tel:+79991234567" className="text-accent hover:text-accent/80 transition-colors font-medium">
-            +7 (999) 123-45-67
+          <a href="tel:+79035336999" className="text-accent hover:text-accent/80 transition-colors font-medium">
+            +7 903-533-69-99
           </a>
         </div>
       </header>
@@ -172,8 +172,8 @@ const Index = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-primary mb-1">Телефон</h4>
-                    <a href="tel:+79991234567" className="text-muted-foreground hover:text-accent transition-colors">
-                      +7 (999) 123-45-67
+                    <a href="tel:+79035336999" className="text-muted-foreground hover:text-accent transition-colors">
+                      +7 903-533-69-99
                     </a>
                   </div>
                 </div>
@@ -227,7 +227,7 @@ const Index = () => {
                     value={formData.phone}
                     onChange={(e) => setFormData({...formData, phone: e.target.value})}
                     className="w-full px-4 py-3 border border-input rounded-md focus:outline-none focus:ring-2 focus:ring-accent bg-background"
-                    placeholder="+7 (999) 123-45-67"
+                    placeholder="+7 903-533-69-99"
                     required
                   />
                 </div>

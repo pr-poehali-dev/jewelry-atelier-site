@@ -85,7 +85,7 @@ const Index = () => {
                 <div className="text-accent mb-2">
                   <Icon name="Award" size={40} className="mx-auto" />
                 </div>
-                <h4 className="text-2xl font-serif font-bold text-primary mb-2">15+ лет</h4>
+                <h4 className="text-2xl font-serif font-bold text-primary mb-2">20 лет</h4>
                 <p className="text-muted-foreground">опыта работы</p>
               </Card>
               <Card className="p-6 text-center hover:shadow-lg transition-shadow">

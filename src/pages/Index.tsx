@@ -150,11 +150,25 @@ const Index = () => {
 
       <section id="contact" className="py-20 px-6 bg-secondary/30">
         <div className="container mx-auto max-w-6xl">
+          <h3 className="text-4xl md:text-5xl font-serif font-bold text-primary mb-12 text-center animate-fade-in">
+            Свяжитесь с нами
+          </h3>
+          
+          <div className="mb-12 animate-fade-in">
+            <div className="rounded-lg overflow-hidden shadow-lg border border-border h-[400px]">
+              <iframe
+                src="https://yandex.ru/map-widget/v1/?ll=37.538806%2C55.781472&z=16&l=map&pt=37.538806,55.781472,pm2rdm"
+                width="100%"
+                height="100%"
+                frameBorder="0"
+                allowFullScreen
+                style={{ position: 'relative' }}
+              />
+            </div>
+          </div>
+
           <div className="grid md:grid-cols-2 gap-12">
             <div className="animate-fade-in">
-              <h3 className="text-4xl md:text-5xl font-serif font-bold text-primary mb-8">
-                Свяжитесь с нами
-              </h3>
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
                   <div className="text-accent mt-1">
